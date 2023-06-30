@@ -26,6 +26,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-![Alt Text](https://miro.medium.com/v2/resize:fit:1200/1*QHVYwfTnJd9MXtyrgH2QfA.gif)
+## Open in CodeSandbox
 
+![Alt Text](https://miro.medium.com/v2/resize:fit:1200/1*QHVYwfTnJd9MXtyrgH2QfA.gif)
+NOTE: If you are not a PRO member of codesandbox then the trick will work only on Public repositories
+
+#### Example
+
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://githubbox.com/dferber90/githubbox)
 
