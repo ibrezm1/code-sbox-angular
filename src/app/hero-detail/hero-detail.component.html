@@ -1,6 +1,13 @@
 <p>hero-detail works! {{author}}</p>
 
-<button (click)="spin()">Click me</button> <br>
-<span class="{{selected}}">{{showText}}</span>
+<button (click)="spin1000()">1000</button> <br>
+<button (click)="spin()">Spin</button> <br>
+<span class="{{selected}}">{{showText}}</span><br>
+<span>Red : {{colorsCounter['Red']}} | Black : {{colorsCounter['Black']}}</span><br>
+<span>Max Streak : {{maxStreak}}</span>
 
-
+<ul>
+  <li *ngFor="let entry of getDictionaryEntries()">
+    Key: {{ entry.key }} - Value: {{ entry.value }}
+  </li>
+</ul>
