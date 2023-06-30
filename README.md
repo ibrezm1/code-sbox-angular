@@ -29,6 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Open in CodeSandbox
 
 ![Alt Text](https://miro.medium.com/v2/resize:fit:1200/1*QHVYwfTnJd9MXtyrgH2QfA.gif)
+
 NOTE: If you are not a PRO member of codesandbox then the trick will work only on Public repositories
 
 #### Example
