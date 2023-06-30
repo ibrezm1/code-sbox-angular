@@ -4,4 +4,6 @@
 .Black {
   color: black;
 }
-
+ul {
+  text-align: left;
+}
