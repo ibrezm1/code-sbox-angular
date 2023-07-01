@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
@@ -11,7 +12,13 @@ import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [AppComponent, HeroDetailComponent, NavbarComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, MatSlideToggleModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule,
+    AppRoutingModule,
+    CommonModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,1 +1,7 @@
 <p>comp2 works!</p>
+<p>type value: {{ typeValue }}</p>
+<input [value]="inputValue" (input)="onInputChange($event)">
+<p>Input value: {{ inputValue }}</p>
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>
